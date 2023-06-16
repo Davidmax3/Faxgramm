@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header div {
+    margin-top: 30px;
+}
+header div p {
+    font-size: 17px;
+    padding-left: 20px;
+   }
+   header div input {
+    width: 270px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: -60px 0 0 20px;
+   }
+   header div a {
+    background-color: rgb(151, 55, 170);
+    width: 280px;
+     
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 20px;
+    height: 35px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   header div a:hover {
+    background:  rgb(172, 58, 187);
+    text-decoration: none;
+   }
+   header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(151, 55, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   header a:hover {
+    text-decoration: underline;
+   }
